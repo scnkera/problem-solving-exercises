@@ -4,7 +4,7 @@ def get_highest_rated(restaurants):
     if not restaurants: 
         return None
         
-    # default best restaurant is at index = 0
+    # initializes best restaurant to a index  of 0
     best_restaurant = restaurants[0] 
     
     # loops through and returns best restaurant
